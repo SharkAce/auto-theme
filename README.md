@@ -1,7 +1,7 @@
 # auto-theme
 
-**dependencies:**
-    - colorthief
-    - matplotlib
-    - pywal
-    - Lyra-cursors
+### Dependencies:
+-pywal  
+-matplotlib  
+-colorthief  
+-Lybra-cursor  
