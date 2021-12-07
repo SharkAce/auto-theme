@@ -1,4 +1,4 @@
-# auto-cursor-change
+# auto-theme
 
 dependencies:
     colorthief
