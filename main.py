@@ -65,16 +65,27 @@ hex_color = '#{}{}{}'.format(
 
 if (find_name(hex_color)) == 'red':
     os.system("gsettings set org.gnome.desktop.interface cursor-theme 'LyraS-cursors'")
+    os.system("gsettings set org.gnome.desktop.interface gtk-theme 'Matcha-dark-aliz'")
+
 elif (find_name(hex_color)) == 'green':
     os.system("gsettings set org.gnome.desktop.interface cursor-theme 'LyraX-cursors'")
+    os.system("gsettings set org.gnome.desktop.interface gtk-theme 'Matcha-dark-sea'")
+
 elif (find_name(hex_color)) == 'blue':
     os.system("gsettings set org.gnome.desktop.interface cursor-theme 'LyraP-cursors'")
+    os.system("gsettings set org.gnome.desktop.interface gtk-theme 'Matcha-dark-azul'")
+
 elif (find_name(hex_color)) == 'orange':
     os.system("gsettings set org.gnome.desktop.interface cursor-theme 'LyraG-cursors'")
+    os.system("gsettings set org.gnome.desktop.interface gtk-theme 'Matcha-dark-azul'")
+
 elif (find_name(hex_color)) == 'purple':
     os.system("gsettings set org.gnome.desktop.interface cursor-theme 'LyraR-cursors'")
+    os.system("gsettings set org.gnome.desktop.interface gtk-theme 'Matcha-dark-azul'")
+
 elif (find_name(hex_color)) == 'yellow':
     os.system("gsettings set org.gnome.desktop.interface cursor-theme 'LyraY-cursors'")
+    os.system("gsettings set org.gnome.desktop.interface gtk-theme 'Matcha-dark-azul'")
 
 os.system("wal -i {}".format(sys.argv[1]))
 
