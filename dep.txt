@@ -1,0 +1,4 @@
+pywal  
+matplotlib  
+colorthief  
+Lybra-cursor  
